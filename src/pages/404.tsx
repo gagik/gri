@@ -49,7 +49,7 @@ const Button = styled.div`
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <video width="200px" autoPlay muted loop id="myVideo">
+      <video width="200px" autoPlay muted loop playsInline>
       <source src={GriVideo} type="video/mp4" />
         </video>
       <Header>gri</Header>
