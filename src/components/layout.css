@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+body, html {
+    background-color: #000;
+}
+/* Disable all styles for links */
+a:active, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+}
